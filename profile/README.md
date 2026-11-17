@@ -48,6 +48,7 @@ flowchart TD
     RS["<b>BRAINS-research-skill</b><br/><span style='font-size:11px'>Research library skill · v1.1</span>"]:::live
     B["<b>BRAINS-build-platform</b><br/><span style='font-size:11px'>Project delivery platform · v0.1</span>"]:::live
     CM["<b>BRAINS-claude-usage-monitor</b><br/><span style='font-size:11px'>VS Code token meter · v0.3</span>"]:::live
+    A["<b>BRAINS-A11Y</b><br/><span style='font-size:11px'>Viewing preferences library · v1.1.1</span>"]:::live
     M["<b>your project here</b><br/><span style='font-size:11px'>apply to join ↓</span>"]:::open
     P --> T
     P --> I
@@ -55,6 +56,7 @@ flowchart TD
     I --> RS
     I --> B
     I --> CM
+    I --> A
     I --> M
     classDef parent fill:#D99518,stroke:#0A0A0A,stroke-width:2px,color:#0A0A0A
     classDef trust fill:#2A8B91,stroke:#0A0A0A,stroke-width:2px,color:#FFFFFF
@@ -72,6 +74,7 @@ flowchart TD
     - BRAINS-research-skill, a research library skill (v1.1)
     - BRAINS-build-platform, a project delivery platform (v0.1)
     - BRAINS-claude-usage-monitor, a VS Code token meter (v0.3)
+    - BRAINS-A11Y, a library of viewing preferences (v1.1.1)
     - Your project, if you apply to join (see below)
 
 | Part | Focus |
@@ -96,6 +99,7 @@ We are looking for contributors: coders, designers, researchers, writers, people
 | **[BRAINS-research-skill](https://github.com/BRAINS-Certified/BRAINS-research-skill)** | v1.1 | A Claude Code skill that looks after the BRAINS research library. It extracts, de-duplicates and sorts PDFs into a fixed set of categories, and it has a review workflow for each paper. |
 | **[BRAINS-build-platform](https://github.com/BRAINS-Certified/BRAINS-build-platform)** | v0.1 | A project delivery platform that affirms neurodivergent ways of working. It breaks work into packages, runs them with AI subagents, keeps a regular check-in rhythm and logs decisions. |
 | **[BRAINS-claude-usage-monitor](https://github.com/BRAINS-Certified/BRAINS-claude-usage-monitor)** | v0.3 | A VS Code extension that reads Claude Code transcripts on your own machine. It shows your rolling 5-hour and 7-day token use. It makes no network calls and sends no telemetry. You download it from the GitHub releases page. |
+| **[BRAINS-A11Y](https://github.com/BRAINS-Certified/BRAINS-A11Y)** | v1.1.1 | A library of eleven viewing preferences, such as theme, contrast, text size, spacing and motion, so that every page that uses it gets the same controls in the same place. It has no dependencies and works in React, in Astro and on plain HTML pages. Using the package does not make a site compliant. |
 | _Your project_ | Open | Have an idea? Apply below with a one-paragraph pitch. |
 
 More projects are on the way. Some of them might be yours.
