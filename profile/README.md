@@ -112,7 +112,9 @@ More projects are on the way. Some of them might be yours.
 
 ### BRAINS Certified badges
 
-Four of the projects above show the BRAINS Certified Gold badge in their README: BRAINS-build-platform, BRAINS-claude-usage-monitor, BRAINS-resume-skill and BRAINS-template-repo. We are bringing them up to our stricter criteria, and the badge stays while we do that.
+Five of the projects above show the BRAINS Certified Gold badge in their README: BRAINS-build-platform, BRAINS-claude-usage-monitor, BRAINS-resume-skill, BRAINS-template-repo and BRAINS-A11Y.
+
+Four of them are in the BRAINS registry of Gold repos. We are bringing them up to our stricter criteria, and the badge stays while we do that. BRAINS-A11Y shows the badge in its README, but it is not yet listed in the registry.
 
 A Gold badge does not cover accessibility. The accessibility checks are opt-in, so the badge says nothing about them either way.
 
