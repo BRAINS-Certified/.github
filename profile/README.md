@@ -59,7 +59,7 @@ flowchart TD
     I --> A
     I --> M
     classDef parent fill:#D99518,stroke:#0A0A0A,stroke-width:2px,color:#0A0A0A
-    classDef trust fill:#2A8B91,stroke:#0A0A0A,stroke-width:2px,color:#FFFFFF
+    classDef trust fill:#2A8B91,stroke:#0A0A0A,stroke-width:2px,color:#0A0A0A
     classDef incubator fill:#4DA8FF,stroke:#0A0A0A,stroke-width:2px,color:#0A0A0A
     classDef live fill:#FFFFFF,stroke:#D99518,stroke-width:2px,color:#0A0A0A
     classDef open fill:#F5F5F5,stroke:#7A7A7A,stroke-width:1px,stroke-dasharray:5 5,color:#1A1A1A
@@ -95,7 +95,7 @@ We are looking for contributors: coders, designers, researchers, writers, people
 
 | Project | Version | What it is |
 |---|---|---|
-| **[BRAINS-resume-skill](https://github.com/BRAINS-Certified/BRAINS-resume-skill)** | v2.3 | A résumé toolkit that is aware of neurodivergence. It covers ATS safety, bias checks, coaching on whether to disclose, and career-change translation. |
+| **[BRAINS-resume-skill](https://github.com/BRAINS-Certified/BRAINS-resume-skill)** | v2.3 | A résumé toolkit that is aware of neurodivergence. It covers applicant tracking system (ATS) safety, bias checks, coaching on whether to disclose, and career-change translation. |
 | **[BRAINS-research-skill](https://github.com/BRAINS-Certified/BRAINS-research-skill)** | v1.1 | A Claude Code skill that looks after the BRAINS research library. It extracts, de-duplicates and sorts PDFs into a fixed set of categories, and it has a review workflow for each paper. |
 | **[BRAINS-build-platform](https://github.com/BRAINS-Certified/BRAINS-build-platform)** | v0.1 | A project delivery platform that affirms neurodivergent ways of working. It breaks work into packages, runs them with AI subagents, keeps a regular check-in rhythm and logs decisions. |
 | **[BRAINS-claude-usage-monitor](https://github.com/BRAINS-Certified/BRAINS-claude-usage-monitor)** | v0.3 | A VS Code extension that reads Claude Code transcripts on your own machine. It shows your rolling 5-hour and 7-day token use. It makes no network calls and sends no telemetry. You download it from the GitHub releases page. |
@@ -108,7 +108,7 @@ More projects are on the way. Some of them might be yours.
 
 | Project | What it is |
 |---|---|
-| **[BRAINS-template-repo](https://github.com/BRAINS-Certified/BRAINS-template-repo)** | The starting point for every new BRAINS repo. It ships the security, accessibility and readability checks we run on our own code: OpenSSF Scorecard, CodeQL, Trivy, Gitleaks, Dependabot, Vale with the BRAINS rule pack, and a Flesch-Kincaid readability check. The accessibility checks are opt-in. |
+| **[BRAINS-template-repo](https://github.com/BRAINS-Certified/BRAINS-template-repo)** | The starting point for every new BRAINS repo. It ships automatic security and readability checks that we run on our own code: OpenSSF Scorecard, CodeQL, Trivy, Gitleaks, Dependabot, Vale with the BRAINS rule pack, and a Flesch-Kincaid readability check. It also includes optional accessibility checks, which a repo can switch on. |
 
 ### BRAINS Certified badges
 
